@@ -36,7 +36,7 @@ def optimized(nums):
     return answer
 
 
-nums = list(map(int, input("Enter array elements separated by spaces: ").split()))
+nums = [1,2,3,4]
 r1 = bruteforce(nums)
 print("Brute Force:", r1)
 r2 = prefix_suffix(nums)

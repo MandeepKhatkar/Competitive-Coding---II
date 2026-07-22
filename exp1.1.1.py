@@ -28,8 +28,8 @@ def slidingwindow(nums, k):
     return False
 
 
-nums = list(map(int, input("Enter array elements separated by spaces: ").split()))
-k = int(input("Enter the value of k: "))
+nums = [1,2,3,1]
+k = 3
 r1 = bruteforce(nums, k)
 print("Brute Force:", r1)
 r2 = hashmap(nums, k)
